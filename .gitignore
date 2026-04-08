@@ -1,0 +1,32 @@
+# Virtual Environment
+venv/
+env/
+
+# Python, Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Data and Artifacts (large files)
+dataset/
+*.csv
+*.tsv
+*.edf
+*.npy
+*.mat
+
+# Models / Checkpoints
+models/
+*.pt
+*.pth
+*.h5
+*.pkl
+
+# Outputs and Logs
+outputs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
